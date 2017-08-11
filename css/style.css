@@ -47,28 +47,58 @@ body {
 }
 
 .upper-content {
-    height: 50%;
+    height: 40%;
     width: 100%;
 
     background-color: rgb(237,238,230);
     background-image: url("bgnoise_lg.png");
     /*opacity: 0.8;*/
 
-
     z-index: 1;
 }
  
 section {
-    z-index: 10
-} 
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 10;
+    max-width: 800px;
+}
+
+.main-plant-button-wrapper {
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+
+    min-width: 300px;
+    max-width: 600px;
+    height: 300px;
+
+}
+
+.main-plant {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    margin-top: -120px; 
+
+    width: 280px;
+    height: 300px;
+}
+
+.main-plant img {
+    width: 280px;
+    height: 300px;
+}
 
 .main-buttons {
     position: absolute;
     margin: auto;
     top: 40%;
-    left: 50%;
+    left: 60%;
     margin-top: -120px;
-    margin-left: -140px; 
+    margin-left: -168px; 
 
     width: 280px;
     height: 300px;
